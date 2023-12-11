@@ -1,0 +1,2963 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('../../assets/Jost-Bold-81270338.ttf') format('truetype'); 
+  }
+  
+
+  @font-face {
+    font-family: 'Medium';
+    src: url('../../assets/Poppins-Medium-8d909883.ttf') format('truetype');
+  }
+
+
+  body {
+     font-family: 'Medium',  'Jost', sans-serif; 
+   } 
+  
+
+.nft-parent-one{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+
+
+
+.nft-text-Heading{
+    width: 45%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+.nft-text-Heading h4{
+    color: #121212;
+font-family: 'medium';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* left sight paraghramph */
+.nft-text-para{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+margin-left: 20rem;
+}
+.nft-text-para p{
+    color: #B600D1;
+    font-family: 'medium';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+/* card section starting from here  */
+.card-parent{
+    width: 100%;
+
+    margin-top: 1.55rem;
+    margin-left: 1.45rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;  
+}
+
+.card-one{
+    width: 290px;
+    height: 385px;
+    flex-shrink: 0;
+border-radius: 10px;
+background:  lightgray 0px 0px / 100% 121.61% no-repeat;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+box-sizing: border-box;
+
+}
+.img-card-nft img{
+    width: 290px;
+    height: 215px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+background:  lightgray 0px 0px / 85% 110.61% no-repeat;
+}
+
+
+.color-img-text{
+  
+position: absolute;
+width: 290px;
+height: 198px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(182, 0, 209, 0.50);
+
+}
+
+.color-img-coin{
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.color-img-coin img{
+    width: 36px;
+height: 36px;
+flex-shrink: 0;
+}
+
+.social-icon-names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.social-icon-names p{
+    
+    color: #FFF;
+    font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 5px;
+
+}
+
+.duck-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: -3rem;
+
+}
+.duck-back img{
+    width: 80px;
+height: 80px;
+flex-shrink: 0;
+
+}
+
+.img-card-nft-duck{
+       
+       margin-top: -1.65rem;
+       margin-left: 0.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.img-card-nft-duck img{
+  
+ margin-top: -3rem;
+    width: 66px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 66px;
+background:   50% / cover no-repeat;
+}
+
+.card-right-icon{
+
+   
+    margin-left: -1rem;
+    margin-top: -5rem;
+}
+
+.card-right-icon img{
+    width: 23.132px;
+    height: 23.041px;
+    flex-shrink: 0;
+}
+
+.there-Dott{
+
+width: 18px;
+height: 15px;
+margin-left: 16rem;
+margin-top: -1.45rem;
+}
+
+.there-Dott img{
+    width: 16px;
+height: 4px;
+flex-shrink: 0;
+}
+
+
+.text-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+.first-Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+ 
+
+}
+.first-Heading p{
+    color: #2636D9;
+font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.second-price{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center; 
+    margin-top: -2.75rem;
+}
+.second-price p{
+    
+    color: #4A4949;
+    font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.third-icon-text{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.third-icon-text img{
+    margin-top: -3rem;
+    
+    width: 23.052px;
+height: 23px;
+flex-shrink: 0;
+}
+
+.third-icon-text p{
+    margin-top: -2rem;
+    margin-left: 1rem;
+    color: #2636D9;
+    font-family: 'medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+/* btn section */
+
+
+
+.text-section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+.first-Heading-two{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    margin-top: -1.10rem;
+
+}
+.first-Heading-two p{
+    color: #2636D9;
+    font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.second-price-two{
+    margin-top: -0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-end;
+}
+.second-price-two p{
+   
+    color: #4A4949;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.second-price-there{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    margin-top: -1.85rem;
+}
+.second-price-there p{
+    color: #4A4949;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.third-icon-text-two{
+    margin-top: -4rem; 
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.third-icon-text-two img{
+    
+    width: 23.052px;
+height: 23px;
+flex-shrink: 0;
+}
+
+.third-icon-text-two p{
+    margin-left: 1rem;
+    color: #2636D9;
+    font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-icon{
+ margin-top: 4rem;
+width: 100%;
+height: 45px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.btn-icon button {
+  
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center ;
+ gap: 5rem;
+    width: 80%;
+height: 34px;
+flex-shrink: 0;
+border-radius: 10px;
+
+
+
+
+color: #FFF;
+font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+border: none;
+background: linear-gradient(63deg, #2636D9 16.95%, #B600D1 83.05%);
+}
+
+
+.cartIcon{
+   position: relative;
+   left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 55px;
+height: 34px;
+flex-shrink: 0;
+border-radius: 0px 10px 10px 0px;
+background: #808080;
+mix-blend-mode: multiply;
+}
+
+.btn-icon img{
+    width: 24.991px;
+    height: 22.032px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+
+
+/* color full card text marging here      */
+
+.coin-img-round{
+    margin-top: 0.75rem;
+}
+
+.coin-number{
+    margin-top: 2rem;
+}
+
+
+
+
+/* hide and show content */
+
+.card-one{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto   ;
+    cursor: pointer;
+}
+
+
+.hide-show-content{
+    
+position: absolute;
+top: -100%;
+left: 0;
+width: 100%;
+height: 100%;
+padding: 0px;
+box-sizing: border-box;
+transition: all 0.5s;
+}
+
+.card-one:hover .hide-show-content{
+    top: 0%;
+}
+
+
+
+/* @media Query starting from here */
+
+
+@media only screen and (max-width: 1024px) {
+    .nft-parent-one{
+        width: 85%;
+    }
+    
+    
+    
+    .nft-text-Heading{
+        
+        width: 75%;
+        height: 75px;  
+        margin-top: 10rem;
+        margin-left: 4rem;
+    }
+    
+    .nft-text-Heading h4{
+        font-size: 40px;
+    }
+    
+    /* left sight paraghramph */
+    .nft-text-para{
+        margin-top: 11.85rem;
+        margin-left: 1rem;
+        height: 45px;
+    }
+    .nft-text-para p{
+        font-size: 24px;
+        font-weight: 400;
+        
+    }
+    
+    
+    /* card section starting from here  */
+    .card-parent{
+       
+       width: 90%;
+        margin-top: 1.55rem;
+      margin-left: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr ;
+      gap: 1rem;
+    }
+    
+    .card-one{
+        width: 290px;
+        height: 385px;
+    }
+    .img-card-nft img{
+        width: 290px;
+        height: 215px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    background:  lightgray 0px 0px / 85% 110.61% no-repeat;
+    }
+    
+    
+    .color-img-text{
+      
+    position: absolute;
+    width: 290px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(182, 0, 209, 0.50);
+    
+    }
+    
+    .color-img-coin{
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    .color-img-coin img{
+        width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    }
+    
+    .social-icon-names{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -1rem;
+    }
+    
+    .social-icon-names p{
+        
+        color: #FFF;
+        font-family: 'Medium';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px;
+    
+    }
+    
+    .duck-back{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         margin-top: -3rem;
+    
+    }
+    .duck-back img{
+        width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    
+    }
+    
+    .img-card-nft-duck{
+           
+           margin-top: -1.65rem;
+           margin-left: 0.25rem;
+    
+    }
+    
+    .img-card-nft-duck img{
+      
+     margin-top: -3rem;
+        width: 66px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 66px;
+  
+    }
+    
+    .card-right-icon{
+        margin-left: -1rem;
+        margin-top: -5rem;
+    }
+    
+    .card-right-icon img{
+        width: 23.132px;
+        height: 23.041px;
+        flex-shrink: 0;
+    }
+    
+    .there-Dott{
+    
+    width: 18px;
+    height: 15px;
+    margin-left: 16rem;
+    margin-top: -1.45rem;
+    }
+    
+    .there-Dott img{
+        width: 16px;
+    height: 4px;
+    flex-shrink: 0;
+    }
+    
+    
+    .text-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+    }
+    
+    
+    .first-Heading{
+   
+    
+    }
+    .first-Heading p{
+        color: #2636D9;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .second-price{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center; 
+        margin-top: -2.75rem;
+    }
+    .second-price p{
+        
+        color: #4A4949;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    .third-icon-text{
+       display:flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+    .third-icon-text img{
+        margin-top: -3rem;
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text p{
+        margin-top: -2rem;
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    
+    
+    /* btn section */
+    
+    
+    
+    .text-section-two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+    }
+    
+    
+    .first-Heading-two{
+      
+        margin-top: -1.10rem;
+    
+    }
+    .first-Heading-two p{
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .second-price-two{
+        margin-top: -0.75rem;
+      
+    }
+    .second-price-two p{
+       
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .second-price-there{
+   
+        margin-top: -1.85rem;
+    }
+    .second-price-there p{
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .third-icon-text-two{
+        margin-top: -4rem; 
+      
+    }
+    .third-icon-text-two img{
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text-two p{
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .btn-icon{
+     margin-top: 4rem;
+    width: 100%;
+    height: 45px;
+
+    }
+    
+    .btn-icon button {
+      
+margin-top: 12rem;
+     gap: 5rem;
+        width: 80%;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    
+    
+    
+    
+    color: #FFF;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    
+    .cartIcon{
+       position: relative;
+       left: 10px;
+       
+        
+        width: 55px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #808080;
+    mix-blend-mode: multiply;
+    }
+    
+    .btn-icon img{
+        width: 24.991px;
+        height: 22.032px;
+        flex-shrink: 0;
+        color: #FFF;
+    }
+    
+    
+    
+    /* color full card text marging here      */
+    
+    .coin-img-round{
+        margin-top: 0.75rem;
+    }
+    
+    .coin-number{
+        margin-top: 2rem;
+    }
+    
+    
+    
+    
+    /* hide and show content */
+    
+    .card-one{
+        width: 100%;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        margin: 10px auto   ;
+        cursor: pointer;
+    }
+    
+    
+    .hide-show-content{
+        
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    }
+    
+    .card-one:hover .hide-show-content{
+        top: 0%;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .nft-parent-one{
+        width: 85%;
+    }
+    
+    
+    
+    .nft-text-Heading{
+       
+     
+       width: 80%;
+       height: 75px;  
+       margin-top: 10rem;
+       margin-left: 4rem;
+    }
+    
+    .nft-text-Heading h4{
+        border: 2px solid #2636D9;
+    font-size: 35px;
+    }
+    
+    /* left sight paraghramph */
+    .nft-text-para{
+    margin-top: 11.85rem;
+    margin-left: 8rem;
+    height: 45px;
+   
+}
+.nft-text-para p{
+        font-size: 24px;
+        font-weight: 400;
+    
+    }
+    
+    
+    /* card section starting from here  */
+    .card-parent{
+       width: 90%;
+        margin-top: 1.55rem;
+      margin-left: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      gap: 1rem;
+    }
+    
+    .card-one{
+        width: 290px;
+        height: 385px;
+    }
+    .img-card-nft img{
+        width: 290px;
+        height: 215px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    background:  lightgray 0px 0px / 85% 110.61% no-repeat;
+    }
+    
+    
+    .color-img-text{
+      
+    position: absolute;
+    width: 290px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(182, 0, 209, 0.50);
+    
+    }
+    
+    .color-img-coin{
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    .color-img-coin img{
+        width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    }
+    
+    .social-icon-names{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -1rem;
+    }
+    
+    .social-icon-names p{
+        
+        color: #FFF;
+        font-family: 'Medium';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px;
+    
+    }
+    
+    .duck-back{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         margin-top: -3rem;
+    
+    }
+    .duck-back img{
+        width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    
+    }
+    
+    .img-card-nft-duck{
+           
+           margin-top: -1.65rem;
+           margin-left: 0.25rem;
+    
+    }
+    
+    .img-card-nft-duck img{
+      
+     margin-top: -3rem;
+        width: 66px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 66px;
+  
+    }
+    
+    .card-right-icon{
+        margin-left: -1rem;
+        margin-top: -5rem;
+    }
+    
+    .card-right-icon img{
+        width: 23.132px;
+        height: 23.041px;
+        flex-shrink: 0;
+    }
+    
+    .there-Dott{
+    
+    width: 18px;
+    height: 15px;
+    margin-left: 16rem;
+    margin-top: -1.45rem;
+    }
+    
+    .there-Dott img{
+        width: 16px;
+    height: 4px;
+    flex-shrink: 0;
+    }
+    
+    
+    .text-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+    }
+    
+    
+    .first-Heading{
+   
+    
+    }
+    .first-Heading p{
+        color: #2636D9;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .second-price{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center; 
+        margin-top: -2.75rem;
+    }
+    .second-price p{
+        
+        color: #4A4949;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    .third-icon-text{
+       display:flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+    .third-icon-text img{
+        margin-top: -3rem;
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text p{
+        margin-top: -2rem;
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    
+    
+    /* btn section */
+    
+    
+    
+    .text-section-two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+    }
+    
+    
+    .first-Heading-two{
+      
+        margin-top: -1.10rem;
+    
+    }
+    .first-Heading-two p{
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .second-price-two{
+        margin-top: -0.75rem;
+      
+    }
+    .second-price-two p{
+       
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .second-price-there{
+   
+        margin-top: -1.85rem;
+    }
+    .second-price-there p{
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .third-icon-text-two{
+        margin-top: -4rem; 
+      
+    }
+    .third-icon-text-two img{
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text-two p{
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .btn-icon{
+     margin-top: 4rem;
+    width: 100%;
+    height: 45px;
+
+    }
+    
+    .btn-icon button {
+      
+margin-top: 12rem;
+     gap: 5rem;
+        width: 80%;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    
+    
+    
+    
+    color: #FFF;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    
+    .cartIcon{
+       position: relative;
+       left: 10px;
+       
+        
+        width: 55px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #808080;
+    mix-blend-mode: multiply;
+    }
+    
+    .btn-icon img{
+        width: 24.991px;
+        height: 22.032px;
+        flex-shrink: 0;
+        color: #FFF;
+    }
+    
+    
+    
+    /* color full card text marging here      */
+    
+    .coin-img-round{
+        margin-top: 0.75rem;
+    }
+    
+    .coin-number{
+        margin-top: 2rem;
+    }
+    
+    
+    
+    
+    /* hide and show content */
+    
+    .card-one{
+        width: 100%;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        margin: 10px auto   ;
+        cursor: pointer;
+    }
+    
+    
+    .hide-show-content{
+        
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    }
+    
+    .card-one:hover .hide-show-content{
+        top: 0%;
+    }
+}
+
+
+/* Targeting specific devices */
+@media only screen and (max-width: 767px) {
+    .nft-parent-one{
+        width: 113%;
+      
+    }
+    
+    
+    
+    .nft-text-Heading{
+       
+       width: 75%;
+       height: 75px;  
+       margin-top: 10rem;
+       margin-left: 4rem;
+    }
+    
+    .nft-text-Heading h4{
+    font-size: 40px;
+    }
+    
+    /* left sight paraghramph */
+    .nft-text-para{
+    margin-top: 11.85rem;
+    margin-left: 1rem;
+    height: 45px;
+    }
+    .nft-text-para p{
+        font-size: 24px;
+        font-weight: 400;
+    
+    }
+    
+    
+    /* card section starting from here  */
+    .card-parent{
+       width: 90%;
+        margin-top: 1.55rem;
+      margin-left: 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+      gap: 1rem;
+    }
+    
+    .card-one{
+        width: 290px;
+        height: 385px;
+    }
+    .img-card-nft img{
+        width: 290px;
+        height: 215px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    background:  lightgray 0px 0px / 85% 110.61% no-repeat;
+    }
+    
+    
+    .color-img-text{
+      
+    position: absolute;
+    width: 290px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(182, 0, 209, 0.50);
+    
+    }
+    
+    .color-img-coin{
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    .color-img-coin img{
+        width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    }
+    
+    .social-icon-names{
+        margin-top: -1rem;
+    }
+    
+    .social-icon-names p{
+        
+        color: #FFF;
+        font-family: 'Medium';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px;
+    
+    }
+    
+    .duck-back{
+      
+         margin-top: -3rem;
+    
+    }
+    .duck-back img{
+        width: 80px;
+        height: 80px;
+        flex-shrink: 0;
+    
+    }
+    
+    .img-card-nft-duck{
+           
+           margin-top: -1.65rem;
+           margin-left: 0.25rem;
+    
+    }
+    
+    .img-card-nft-duck img{
+      
+     margin-top: -3rem;
+        width: 66px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 66px;
+  
+    }
+    
+    .card-right-icon{
+        margin-left: -1rem;
+        margin-top: -5rem;
+    }
+    
+    .card-right-icon img{
+        width: 23.132px;
+        height: 23.041px;
+        flex-shrink: 0;
+    }
+    
+    .there-Dott{
+    
+    width: 18px;
+    height: 15px;
+    margin-left: 16rem;
+    margin-top: -1.45rem;
+    }
+    
+    .there-Dott img{
+        width: 16px;
+    height: 4px;
+    flex-shrink: 0;
+    }
+    
+    
+    .text-section{
+    }
+    
+    
+    .first-Heading{
+   
+    
+    }
+    .first-Heading p{
+        color: #2636D9;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .second-price{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center; 
+        margin-top: -2.75rem;
+    }
+    .second-price p{
+        
+        color: #4A4949;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    .third-icon-text{
+    
+    }
+    .third-icon-text img{
+        margin-top: -3rem;
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text p{
+        margin-top: -2rem;
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    
+    
+    /* btn section */
+    
+    
+    
+    .text-section-two{  }
+    
+    
+    .first-Heading-two{
+      
+        margin-top: -1.10rem;
+    
+    }
+    .first-Heading-two p{
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .second-price-two{
+        margin-top: -0.75rem;
+      
+    }
+    .second-price-two p{
+       
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .second-price-there{
+   
+        margin-top: -1.85rem;
+    }
+    .second-price-there p{
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .third-icon-text-two{
+        margin-top: -4rem; 
+      
+    }
+    .third-icon-text-two img{
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text-two p{
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .btn-icon{
+     margin-top: 4rem;
+    width: 100%;
+    height: 45px;
+
+    }
+    
+    .btn-icon button {
+      
+margin-top: 12rem;
+     gap: 5rem;
+        width: 80%;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    
+    
+    
+    
+    color: #FFF;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    
+    .cartIcon{
+       position: relative;
+       left: 10px;   
+        width: 55px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #808080;
+
+    }
+    
+    .btn-icon img{
+        width: 24.991px;
+        height: 22.032px;
+        flex-shrink: 0;
+        color: #FFF;
+    }
+    
+    
+    
+    /* color full card text marging here      */
+    
+    .coin-img-round{
+        margin-top: 0.75rem;
+    }
+    
+    .coin-number{
+        margin-top: 2rem;
+    }
+    
+    
+    
+    
+    
+  }
+
+  /* Styles for screens with width 425px */
+@media only screen and (max-width: 425px) {
+    .nft-parent-one{
+        width: 210%;
+   
+    }
+    
+    
+    
+    .nft-text-Heading{
+        
+        width: 75%;
+        height: 75px;  
+        margin-top: 10rem;
+        margin-left: 6rem;
+    }
+    
+    .nft-text-Heading h4{
+        font-size: 40px;
+     
+    }
+    
+    /* left sight paraghramph */
+    .nft-text-para{
+        margin-top: 11.85rem;
+        margin-left: 1rem;
+        height: 45px;
+  
+    }
+    .nft-text-para p{
+        font-size: 24px;
+        font-weight: 400;
+        
+    }
+    
+    
+    /* card section starting from here  */
+    .card-parent{
+    
+       width: 180%;
+        margin-top: 1.55rem;
+      margin-left: 6rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+      gap: 0rem;
+    }
+    
+    .card-one{
+        width: 290px;
+        height: 385px;
+    }
+    .img-card-nft img{
+        width: 290px;
+        height: 215px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    background:  lightgray 0px 0px / 85% 110.61% no-repeat;
+    }
+    
+    
+    .color-img-text{
+      
+    position: absolute;
+    width: 290px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(182, 0, 209, 0.50);
+    
+    }
+    
+    .color-img-coin{
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    .color-img-coin img{
+        width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    }
+    
+    .social-icon-names{
+        margin-top: -1rem;
+    }
+    
+    .social-icon-names p{
+        
+        color: #FFF;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px;
+    
+    }
+    
+    .duck-back{
+        
+         margin-top: -3rem;
+    
+    }
+    .duck-back img{
+        width: 80px;
+        height: 80px;
+        flex-shrink: 0;
+    
+    }
+    
+    .img-card-nft-duck{
+           
+           margin-top: -1.65rem;
+           margin-left: 0.25rem;
+    
+    }
+    
+    .img-card-nft-duck img{
+      
+     margin-top: -3rem;
+        width: 66px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 66px;
+  
+    }
+    
+    .card-right-icon{
+        margin-left: -1rem;
+        margin-top: -5rem;
+    }
+    
+    .card-right-icon img{
+        width: 23.132px;
+        height: 23.041px;
+        flex-shrink: 0;
+    }
+    
+    .there-Dott{
+    
+    width: 18px;
+    height: 15px;
+    margin-left: 16rem;
+    margin-top: -1.45rem;
+    }
+    
+    .there-Dott img{
+    width: 16px;
+    height: 4px;
+    flex-shrink: 0;
+    }
+    
+    
+    .text-section{}
+    
+    
+    .first-Heading{}
+    .first-Heading p{
+        color: #2636D9;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .second-price{
+      
+        margin-top: -2.75rem;
+    }
+    .second-price p{
+        
+        color: #4A4949;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    .third-icon-text{
+    
+    }
+    .third-icon-text img{
+        margin-top: -3rem;
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text p{
+margin-top: -2rem;
+margin-left: 1rem;
+color: #2636D9;
+font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    
+    
+    /* btn section */
+    
+    
+    
+    .text-section-two{  }
+    
+    
+    .first-Heading-two{
+      
+        margin-top: -1.10rem;
+    
+    }
+    .first-Heading-two p{
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .second-price-two{
+        margin-top: -0.75rem;
+      
+    }
+    .second-price-two p{
+       
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .second-price-there{
+   
+        margin-top: -1.85rem;
+    }
+    .second-price-there p{
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .third-icon-text-two{
+        margin-top: -4rem; 
+      
+    }
+    .third-icon-text-two img{
+        
+        width: 23.052px;
+    height: 23px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text-two p{
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .btn-icon{
+     margin-top: 4rem;
+    width: 100%;
+    height: 45px;
+
+    }
+    
+    .btn-icon button {
+      
+margin-top: 10rem;
+     gap: 5rem;
+        width: 80%;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    
+    
+    
+    
+    color: #FFF;
+    font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    
+    .cartIcon{
+       position: relative;
+       left: 10px;   
+        width: 55px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #808080;
+
+    }
+    
+    .btn-icon img{
+        width: 24.991px;
+        height: 22.032px;
+        flex-shrink: 0;
+        color: #FFF;
+    }
+    
+    
+    
+    /* color full card text marging here      */
+    
+    .coin-img-round{
+        margin-top: 0.75rem;
+    }
+    
+    .coin-number{
+        margin-top: 2rem;
+    }
+    
+  }
+  
+  /* Styles for screens with width 375px */
+  @media only screen and (max-width: 375px) {
+    .nft-parent-one{
+        width: 240%;
+    }
+    
+    
+    
+    .nft-text-Heading{
+        
+        width: 75%;
+        height: 75px;  
+        margin-top: 10rem;
+        margin-left: 6rem;
+    }
+    
+    .nft-text-Heading h4{
+        font-size: 45px;
+        
+    }
+    
+    /* left sight paraghramph */
+    .nft-text-para{
+      
+        margin-top: 11.85rem;
+        margin-left: 1rem;
+        height: 45px;
+  
+    }
+    .nft-text-para p{
+        font-size: 32px;
+        font-weight: 400;
+        
+    }
+    
+    
+    /* card section starting from here  */
+    .card-parent{
+    
+       width: 180%;
+        margin-top: 1rem;
+      margin-left: 6rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+      
+    }
+    
+    
+    .card-one{
+        width: 290px;
+        height: 385px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-card-nft img{
+        margin-left: 1rem;
+        width: 240px;
+        height: 230px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    
+    .color-img-text{
+      
+    position: absolute;
+    width: 290px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(182, 0, 209, 0.50);
+    
+    }
+    
+    .color-img-coin{
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    .color-img-coin img{
+        width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    }
+    
+    .social-icon-names{
+        margin-top: -1rem;
+    }
+    
+    .social-icon-names p{
+        
+        color: #FFF;
+        font-family: 'Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px;
+    
+    }
+    
+    .duck-back{
+        
+         margin-top: -3rem;
+    
+    }
+    .duck-back img{
+        width: 90px;
+        height: 90px;
+        flex-shrink: 0;
+    
+    }
+    
+    .img-card-nft-duck{
+           
+           margin-top: -1.85rem;
+           margin-left: 1.55rem;
+    
+    }
+    
+    .img-card-nft-duck img{
+      
+     margin-top: -3rem;
+        width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 66px;
+  
+    }
+    
+    .card-right-icon{
+        margin-left: -1rem;
+        margin-top: -5rem;
+    }
+    
+    .card-right-icon img{
+        width: 28.132px;
+        height: 28.041px;
+        flex-shrink: 0;
+    }
+    
+    .there-Dott{
+    
+    width: 18px;
+    height: 15px;
+    margin-left: 12rem;
+    margin-top: -1.45rem;
+    }
+    
+    .there-Dott img{
+    width: 25px;
+    height: 10px;
+    flex-shrink: 0;
+    }
+    
+    
+    .text-section{}
+    
+    
+    .first-Heading{}
+    .first-Heading p{
+        color: #2636D9;
+    font-family: 'Medium';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .second-price{
+      
+        margin-top: -2.75rem;
+    }
+    .second-price p{
+        
+        color: #4A4949;
+        font-family: 'Medium';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    .third-icon-text{
+    
+    }
+    .third-icon-text img{
+        margin-top: -3rem;
+        
+        width: 28.052px;
+    height: 25px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text p{
+
+color: #2636D9;
+font-family: 'medium';
+    font-size: 12px;
+ 
+    font-weight: 700;
+
+    }
+    
+    
+    
+    
+    /* btn section */
+    
+    
+    
+    .text-section-two{  }
+    
+    
+    .first-Heading-two{
+      
+        margin-top: -1.10rem;
+    
+    }
+    .first-Heading-two p{
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .second-price-two{
+        margin-top: -0.75rem;
+      
+    }
+    .second-price-two p{
+       
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .second-price-there{
+   
+        margin-top: -1.85rem;
+    }
+    .second-price-there p{
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .third-icon-text-two{
+        margin-top: -4rem; 
+      
+    }
+    .third-icon-text-two img{
+        
+        width: 25.052px;
+    height: 25px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text-two p{
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .btn-icon{
+     margin-top: 8rem;
+    width: 100%;
+    height: 45px;
+
+    }
+    
+    .btn-icon button {
+      
+margin-top: 0rem;
+     gap: 5rem;
+        width: 80%;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    
+    
+    
+    
+    color: #FFF;
+    font-family: 'Medium';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    
+    .cartIcon{
+       position: relative;
+       left: 10px;   
+        width: 55px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #808080;
+
+    }
+    
+    .btn-icon img{
+        width: 28.991px;
+        height: 22.032px;
+        flex-shrink: 0;
+        color: #FFF;
+    }
+    
+    
+    
+    /* color full card text marging here      */
+    
+    .coin-img-round{
+        margin-top: 0.75rem;
+    }
+    
+    .coin-number{
+        margin-top: 2rem;
+    }
+    
+  }
+  
+  /* Styles for screens with width 320px */
+  @media only screen and (max-width: 320px) {
+ 
+    .nft-parent-one{
+      
+        width: 205%;
+        margin-left: -0.55rem;
+        margin-top: 4rem;
+    }
+    
+    
+    
+    .nft-text-Heading{
+   
+        width: 85%;
+        height: 75px;  
+        margin-top: 10rem;
+        margin-left: 01rem;
+    }
+    
+    .nft-text-Heading h4{
+        font-size: 35px;
+        
+    }
+    
+    /* left sight paraghramph */
+    .nft-text-para{
+  
+        margin-top: 11.85rem;
+        margin-left: 1rem;
+        height: 45px;
+  
+    }
+    .nft-text-para p{
+        font-size: 32px;
+        font-weight: 400;
+        
+    }
+    
+    
+    /* card section starting from here  */
+    .card-parent{
+    
+       width: 180%;
+        margin-top: 1rem;
+      margin-left: 0rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+      
+    }
+    
+    
+    .card-one{
+        width: 290px;
+        height: 385px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-card-nft img{
+        margin-left: 1rem;
+        width: 240px;
+        height: 230px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    
+    .color-img-text{
+      
+    position: absolute;
+    width: 290px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(182, 0, 209, 0.50);
+    
+    }
+    
+    .color-img-coin{
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    .color-img-coin img{
+        width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    }
+    
+    .social-icon-names{
+        margin-top: -1rem;
+    }
+    
+    .social-icon-names p{
+        
+        color: #FFF;
+        font-family: 'Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px;
+    
+    }
+    
+    .duck-back{
+        
+         margin-top: -3rem;
+    
+    }
+    .duck-back img{
+        width: 90px;
+        height: 90px;
+        flex-shrink: 0;
+    
+    }
+    
+    .img-card-nft-duck{
+           
+           margin-top: -1.85rem;
+           margin-left: 1.55rem;
+    
+    }
+    
+    .img-card-nft-duck img{
+      
+     margin-top: -3rem;
+        width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 66px;
+  
+    }
+    
+    .card-right-icon{
+        margin-left: -1rem;
+        margin-top: -5rem;
+    }
+    
+    .card-right-icon img{
+        width: 28.132px;
+        height: 28.041px;
+        flex-shrink: 0;
+    }
+    
+    .there-Dott{
+    
+    width: 18px;
+    height: 15px;
+    margin-left: 12rem;
+    margin-top: -1.45rem;
+    }
+    
+    .there-Dott img{
+    width: 25px;
+    height: 10px;
+    flex-shrink: 0;
+    }
+    
+    
+    .text-section{}
+    
+    
+    .first-Heading{}
+    .first-Heading p{
+        color: #2636D9;
+    font-family: 'Medium';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .second-price{
+      
+        margin-top: -2.75rem;
+    }
+    .second-price p{
+        
+        color: #4A4949;
+        font-family: 'Medium';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+    .third-icon-text{
+    
+    }
+    .third-icon-text img{
+        margin-top: -3rem;
+        
+        width: 28.052px;
+    height: 25px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text p{
+
+color: #2636D9;
+font-family: 'medium';
+    font-size: 12px;
+ 
+    font-weight: 700;
+
+    }
+    
+    
+    
+    
+    /* btn section */
+    
+    
+    
+    .text-section-two{  }
+    
+    
+    .first-Heading-two{
+      
+        margin-top: -1.10rem;
+    
+    }
+    .first-Heading-two p{
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .second-price-two{
+        margin-top: -0.75rem;
+      
+    }
+    .second-price-two p{
+       
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .second-price-there{
+   
+        margin-top: -1.85rem;
+    }
+    .second-price-there p{
+        color: #4A4949;
+        font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .third-icon-text-two{
+        margin-top: -4rem; 
+      
+    }
+    .third-icon-text-two img{
+        
+        width: 25.052px;
+    height: 25px;
+    flex-shrink: 0;
+    }
+    
+    .third-icon-text-two p{
+        margin-left: 1rem;
+        color: #2636D9;
+        font-family: 'Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .btn-icon{
+     margin-top: 8rem;
+    width: 100%;
+    height: 45px;
+
+    }
+    
+    .btn-icon button {
+      
+margin-top: 0rem;
+     gap: 5rem;
+        width: 80%;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    
+    
+    
+    
+    color: #FFF;
+    font-family: 'Medium';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    
+    .cartIcon{
+       position: relative;
+       left: 10px;   
+        width: 55px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 0px 10px 10px 0px;
+    background: #808080;
+
+    }
+    
+    .btn-icon img{
+        width: 28.991px;
+        height: 22.032px;
+        flex-shrink: 0;
+        color: #FFF;
+    }
+    
+    
+    
+    /* color full card text marging here      */
+    
+    .coin-img-round{
+        margin-top: 0.75rem;
+    }
+    
+    .coin-number{
+        margin-top: 2rem;
+    }
+
+      
+    }
+  
+  
+    @media only screen and (min-width: 150px) and (max-width: 319px){
+        .nft-parent-one{
+            width: 132%;
+       
+        }
+        
+        
+        
+        .nft-text-Heading{
+            width: 75%;
+            height: 75px;  
+            margin-top: 5rem;
+            margin-left: 0rem;
+        }
+        
+        .nft-text-Heading h4{
+            font-size: 21px;
+            
+        }
+        
+        /* left sight paraghramph */
+        .nft-text-para{
+          
+            margin-top: 6.25rem;
+            margin-left: -8rem;
+            height: 45px;
+      
+        }
+        .nft-text-para p{
+            font-size: 20px;
+            font-weight: 400;
+            
+        }
+        
+        
+        /* card section starting from here  */
+        .card-parent{
+
+           width: 132%;
+            margin-top: 5rem;
+          margin-left: -0.55rem;
+            display: grid;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr;
+            gap: 1rem;
+           box-sizing: border-box;
+        }
+        
+        
+        .card-one{
+            margin-left: 1rem;
+            width: 290px;
+            height: 385px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-card-nft img{
+            margin-left: 1rem;
+            width: 240px;
+            height: 230px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+    
+        }
+        
+        
+        .color-img-text{
+          
+        position: absolute;
+        width: 290px;
+        height: 198px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: rgba(182, 0, 209, 0.50);
+        
+        }
+        
+        .color-img-coin{
+            position: relative;
+            left: 15px;
+            top: 15px;
+        }
+        .color-img-coin img{
+            width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+        }
+        
+        .social-icon-names{
+            margin-top: -1rem;
+        }
+        
+        .social-icon-names p{
+            
+            color: #FFF;
+            font-family: 'Medium';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 5px;
+        
+        }
+        
+        .duck-back{
+            
+             margin-top: -3rem;
+        
+        }
+        .duck-back img{
+            width: 90px;
+            height: 90px;
+            flex-shrink: 0;
+        
+        }
+        
+        .img-card-nft-duck{
+               
+               margin-top: -1.85rem;
+               margin-left: 1.55rem;
+        
+        }
+        
+        .img-card-nft-duck img{
+          
+         margin-top: -3rem;
+            width: 70px;
+        height: 70px;
+        flex-shrink: 0;
+        border-radius: 66px;
+      
+        }
+        
+        .card-right-icon{
+            margin-left: -1rem;
+            margin-top: -5rem;
+        }
+        
+        .card-right-icon img{
+            width: 28.132px;
+            height: 28.041px;
+            flex-shrink: 0;
+        }
+        
+        .there-Dott{
+        
+        width: 18px;
+        height: 15px;
+        margin-left: 12rem;
+        margin-top: -1.45rem;
+        }
+        
+        .there-Dott img{
+        width: 25px;
+        height: 10px;
+        flex-shrink: 0;
+        }
+        
+        
+        .text-section{}
+        
+        
+        .first-Heading{}
+        .first-Heading p{
+            color: #2636D9;
+        font-family: 'Medium';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        }
+        .second-price{
+          
+            margin-top: -2.75rem;
+        }
+        .second-price p{
+            
+            color: #4A4949;
+            font-family: 'Medium';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+        
+        
+        .third-icon-text{
+        
+        }
+        .third-icon-text img{
+            margin-top: -3rem;
+            
+            width: 28.052px;
+        height: 25px;
+        flex-shrink: 0;
+        }
+        
+        .third-icon-text p{
+    
+    color: #2636D9;
+    font-family: 'medium';
+        font-size: 12px;
+     
+        font-weight: 700;
+    
+        }
+        
+        
+        
+        
+        /* btn section */
+        
+        
+        
+        .text-section-two{  }
+        
+        
+        .first-Heading-two{
+          
+            margin-top: -1.10rem;
+        
+        }
+        .first-Heading-two p{
+            color: #2636D9;
+            font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        
+        }
+        .second-price-two{
+            margin-top: -0.75rem;
+          
+        }
+        .second-price-two p{
+           
+            color: #4A4949;
+            font-family: 'Medium';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        
+        .second-price-there{
+       
+            margin-top: -1.85rem;
+        }
+        .second-price-there p{
+            color: #4A4949;
+            font-family: 'Medium';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal; 
+        }
+        
+        .third-icon-text-two{
+            margin-top: -4rem; 
+          
+        }
+        .third-icon-text-two img{
+            
+            width: 25.052px;
+        height: 25px;
+        flex-shrink: 0;
+        }
+        
+        .third-icon-text-two p{
+            margin-left: 1rem;
+            color: #2636D9;
+            font-family: 'Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+        .btn-icon{
+         margin-top: 8rem;
+        width: 100%;
+        height: 45px;
+    
+        }
+        
+        .btn-icon button {
+          
+    margin-top: 0rem;
+         gap: 5rem;
+            width: 80%;
+        height: 34px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        
+        
+        
+        
+        color: #FFF;
+        font-family: 'Medium';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        }
+        
+        
+        .cartIcon{
+           position: relative;
+           left: 10px;   
+            width: 55px;
+        height: 34px;
+        flex-shrink: 0;
+        border-radius: 0px 10px 10px 0px;
+        background: #808080;
+    
+        }
+        
+        .btn-icon img{
+            width: 28.991px;
+            height: 22.032px;
+            flex-shrink: 0;
+            color: #FFF;
+        }
+        
+        
+        
+        /* color full card text marging here      */
+        
+        .coin-img-round{
+            margin-top: 0.75rem;
+        }
+        
+        .coin-number{
+            margin-top: 2rem;
+        }    
+    }

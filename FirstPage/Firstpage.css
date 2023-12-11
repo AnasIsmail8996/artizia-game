@@ -1,0 +1,2455 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('../../assets/Jost-Bold-81270338.ttf') format('truetype'); 
+  }
+  
+
+  @font-face {
+    font-family: 'Medium';
+    src: url('../../assets/Poppins-Medium-8d909883.ttf') format('truetype');
+  }
+
+
+  body {
+     font-family: 'Medium',  'Jost', sans-serif; 
+   } 
+  
+   ::-webkit-scrollbar{
+    width: 15px;
+  
+}
+::-webkit-scrollbar-track{
+    
+    background: #FFF;
+    flex-shrink: 0; 
+}
+::-webkit-scrollbar-thumb{
+   
+    border-radius: 10px;
+    
+    background: linear-gradient(0deg, #2636D9 0%, #B600D1 100%);
+}
+
+
+
+.firstPage-parent{
+  position: relative;
+    width: 100%;
+    height: 450px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.back-img{
+position: absolute;
+    background-image: url('../../assets/images/home-one.png');
+    width: 101.28%;
+    height: 75vh;
+    margin-top: -0.55rem;
+    margin-left: -0.55rem;
+}
+
+
+/* left page  */
+.FistPage-Left{
+   position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  gap: 2rem;
+    width: 250px;
+    height: 150px;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+
+.left-logo-icon img{
+    margin-left: 1rem;
+}
+.left-logo-name{
+    margin-top: 0.60rem;
+    margin-left: -1.25rem;
+}
+
+
+
+/* right page */
+.FistPage-Right{
+    position: relative;
+    margin-left: 18rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    gap: 0.45rem;
+
+    width: 320px;
+    height: 150px;  
+    margin-top: 2rem;
+    
+}
+
+
+.Right-Page-Icon-Search img{
+    cursor: pointer;
+ margin-top: 7px;
+    width: 28.976px;
+height: 29.017px;
+flex-shrink: 0;
+}
+
+
+
+.Righ-Page-Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.Right-Page-Btn button {
+    
+  
+    cursor: pointer;
+    color:  #FFF;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+
+    display: inline-flex;
+    padding: 16px 32px;
+  border: none;
+   gap: 0px;
+   border-radius: 66px;
+background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+}
+
+
+.Right-Page-Icon-Owner {
+    cursor: pointer;
+    margin-top: 7px;
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 42px;
+background: url(../../assets/images/OtherUser.png) lightgray 50% / cover no-repeat;
+}
+
+
+
+/* Center Content and form  and  text  Starting from here */
+
+.center-parent{
+    margin-top: 13rem;
+    margin-left: 8rem;
+    left: 13rem;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 48rem;
+    height: 2px;
+}
+
+.heading-center{
+    margin-top: -4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading-center p{
+    color:  #FFF;
+font-family: 'Medium';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.center-parent span{
+    color:  #FFF;
+font-family: Jost;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+/* center btn and input */
+
+.center-btn-input{
+    display: flex;
+ 
+    margin-top: -2rem;
+}
+.center-btn-input input{
+    position: relative;
+    left: 8.35rem;
+    width: 625px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+border: none;
+}
+
+input::placeholder{
+    text-align: start;
+    color: #9F9F9F;
+font-family: Jost;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 20px;
+}
+
+
+.center-btn-input button{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 0%;
+    z-index: 999;
+    width: 141px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #B600D1;
+border: none;
+
+color: #FFF;
+font-family: 'medium';
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.center-text-after-input{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.center-text-after-input p{
+    color:  #FFF;
+    font-family: 'medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+/* color full page starting from */
+.color-full-page-parent{
+    position: relative;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+   
+    margin-left: -0.55rem;
+    width: 101.25%;
+    height: 336px;
+    flex-shrink: 0;
+    background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+}
+
+
+
+.color-Text-parent{
+    
+    margin-top: 4rem;
+    margin-left:14rem;
+    width: 65%;
+    height: 250px;
+    
+}
+
+.color-Heading{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height:60px ;
+}
+
+.color-Heading p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  color: #FFF;
+  width: 100%;
+  line-height: normal;
+  list-style: normal;
+  font-weight:500;
+  font-family: 'Medium';
+  font-size: 45px;
+  
+}
+.color-Heading p span {
+    color:  #FFF;
+font-family: 'Jost';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.color-para{
+  
+    width: 100%;
+    color:  #FFF;
+text-align: center;
+font-family: 'Medium';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+ 
+.color-counting{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+
+
+}
+
+.first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.first-child h2{
+    margin-top: -0.45rem;
+    color:  #FFF;
+font-family: Jost;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.first-child p{
+    margin-top: -1.75rem;
+    color: #FFF;
+font-family: 'Medium';
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 2px;
+}
+
+
+/* media query starting from here */
+@media only screen and (max-width: 1024px){
+
+
+    
+    .firstPage-parent{
+        position: relative;
+          width: 100%;
+          height: 450px;
+      }
+      
+      .back-img{
+      position: absolute;
+          background-image: url('../../assets/images/home-one.png');
+          width: 101.28%;
+          height: 90vh;
+          margin-top: -0.55rem;
+          margin-left: -0.55rem;
+      }
+      
+      
+      /* left page  */
+      .FistPage-Left{
+         position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: flex-start;
+        gap: 2rem;
+          width: 250px;
+          height: 150px;
+          margin-top: 2rem;
+          margin-left: 7rem;
+      }
+      
+      
+      .left-logo-icon img{
+          margin-left: 1rem;
+      }
+      .left-logo-name{
+          margin-top: 0.60rem;
+          margin-left: -1.25rem;
+      }
+      
+      
+      
+      /* right page */
+      .FistPage-Right{
+          position: relative;
+          margin-left: 18rem;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          align-items: flex-start;
+          gap: 0.45rem;
+      
+          width: 320px;
+          height: 150px;  
+          margin-top: 2rem;
+          
+      }
+      
+      
+      .Right-Page-Icon-Search img{
+          cursor: pointer;
+       margin-top: 7px;
+          width: 28.976px;
+      height: 29.017px;
+      flex-shrink: 0;
+      }
+      
+      
+      
+      .Righ-Page-Btn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+      }
+      
+      .Right-Page-Btn button {
+          
+        
+          cursor: pointer;
+          color:  #FFF;
+          font-family: 'Jost';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+      
+      
+      
+          display: inline-flex;
+          padding: 14px 28px;
+        border: none;
+         gap: 0px;
+         border-radius: 66px;
+      background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+      }
+      
+      
+      .Right-Page-Icon-Owner {
+          cursor: pointer;
+          margin-top: 7px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          border-radius: 42px;
+      background: url(../../assets/images/OtherUser.png) lightgray 50% / cover no-repeat;
+      }
+      
+      
+      
+      /* Center Content and form  and  text  Starting from here */
+      
+      .center-parent{
+          margin-top: 13rem;
+          margin-left: 2rem;
+          left: 13rem;
+          position: absolute;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 38rem;
+      }
+      
+      .heading-center{
+          margin-top: -4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      
+      }
+      .heading-center p{
+          color:  #FFF;
+      font-family: 'Medium';
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      }
+      .center-parent span{
+          color:  #FFF;
+      font-family: Jost;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      }
+      
+      /* center btn and input */
+      
+      .center-btn-input{
+          display: flex;
+       
+          margin-top: -2rem;
+      }
+      .center-btn-input input{
+          position: relative;
+          left: 8.35rem;
+          width: 30rem;
+      height: 56px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #FFF;
+      border: none;
+      }
+      
+      input::placeholder{
+          text-align: start;
+          color: #9F9F9F;
+      font-family: Jost;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 20px;
+      }
+      
+      
+      .center-btn-input button{
+          cursor: pointer;
+          position: absolute;
+          margin-top: 0%;
+          z-index: 999;
+          width: 141px;
+      height: 60px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #B600D1;
+      border: none;
+      
+      color: #FFF;
+      font-family: 'medium';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .center-text-after-input{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .center-text-after-input p{
+          color:  #FFF;
+          font-family: 'medium';
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+      }
+      
+      
+      
+      
+      /* color full page starting from */
+      .color-full-page-parent{
+          position: relative;
+        
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+         margin-top: -1.65rem;
+          margin-left: -0.55rem;
+          width: 101.25%;
+          height: 336px;
+          flex-shrink: 0;
+          background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+      }
+      
+      
+      
+      .color-Text-parent{
+          
+          margin-top: 4rem;
+          margin-left:14rem;
+          width: 65%;
+          height: 250px;
+          
+      }
+      
+      .color-Heading{
+       
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height:60px ;
+      }
+      
+      .color-Heading p{
+          margin-top: 1rem;
+          margin-left: 1rem;
+        color: #FFF;
+        width: 100%;
+        line-height: normal;
+        list-style: normal;
+        font-weight:500;
+        font-family: 'Medium';
+        font-size: 32px;
+        
+      }
+      .color-Heading p span {
+          color:  #FFF;
+      font-family: 'Jost';
+      font-size: 33px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .color-para{
+        
+          width: 100%;
+          color:  #FFF;
+      text-align: center;
+      font-family: 'Medium';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+       
+      .color-counting{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      
+      
+      }
+      
+      .first-child{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+      }
+      .first-child h2{
+          margin-top: -0.45rem;
+          color:  #FFF;
+      font-family: Jost;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      }
+      .first-child p{
+          margin-top: -1.75rem;
+          color: #FFF;
+      font-family: 'Medium';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2px;
+      }
+         
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+     
+    .firstPage-parent{
+        position: relative;
+          width: 100%;
+          height: 450px;
+      }
+      
+      .back-img{
+      position: absolute;
+          background-image: url('../../assets/images/home-one.png');
+          width: 101.28%;
+          height: 90vh;
+          margin-top: -0.55rem;
+          margin-left: -0.55rem;
+      }
+      
+      
+      /* left page  */
+      .FistPage-Left{
+         position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: flex-start;
+        gap: 2rem;
+          width: 250px;
+          height: 150px;
+          margin-top: 2rem;
+          margin-left: 7rem;
+      }
+      
+      
+      .left-logo-icon img{
+          margin-left: 1rem;
+      }
+      .left-logo-name{
+          margin-top: 0.60rem;
+          margin-left: -1.25rem;
+      }
+      
+      
+      
+      /* right page */
+      .FistPage-Right{
+          position: relative;
+          margin-left: 18rem;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          align-items: flex-start;
+          gap: 0.45rem;
+      
+          width: 320px;
+          height: 150px;  
+          margin-top: 2rem;
+          
+      }
+      
+      
+      .Right-Page-Icon-Search img{
+          cursor: pointer;
+       margin-top: 7px;
+          width: 28.976px;
+      height: 29.017px;
+      flex-shrink: 0;
+      }
+      
+      
+      
+      .Righ-Page-Btn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+      }
+      
+      .Right-Page-Btn button {
+          
+        
+          cursor: pointer;
+          color:  #FFF;
+          font-family: 'Jost';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+      
+      
+      
+          display: inline-flex;
+          padding: 14px 28px;
+        border: none;
+         gap: 0px;
+         border-radius: 66px;
+      background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+      }
+      
+      
+      .Right-Page-Icon-Owner {
+          cursor: pointer;
+          margin-top: 7px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          border-radius: 42px;
+      background: url(../../assets/images/OtherUser.png) lightgray 50% / cover no-repeat;
+      }
+      
+      
+      
+      /* Center Content and form  and  text  Starting from here */
+      
+      .center-parent{
+          margin-top: 13rem;
+          margin-left: 2rem;
+          left: 13rem;
+          position: absolute;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 38rem;
+      }
+      
+      .heading-center{
+          margin-top: -4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      
+      }
+      .heading-center p{
+          color:  #FFF;
+      font-family: 'Medium';
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+      }
+      .center-parent span{
+          color:  #FFF;
+      font-family: Jost;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      }
+      
+      /* center btn and input */
+      
+      .center-btn-input{
+          display: flex;
+       
+          margin-top: -2rem;
+      }
+      .center-btn-input input{
+          position: relative;
+          left: 8.35rem;
+          width: 30rem;
+      height: 56px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #FFF;
+      border: none;
+      }
+      
+      input::placeholder{
+          text-align: start;
+          color: #9F9F9F;
+      font-family: Jost;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 20px;
+      }
+      
+      
+      .center-btn-input button{
+          cursor: pointer;
+          position: absolute;
+          margin-top: 0%;
+          z-index: 999;
+          width: 141px;
+      height: 60px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #B600D1;
+      border: none;
+      
+      color: #FFF;
+      font-family: 'medium';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .center-text-after-input{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .center-text-after-input p{
+          color:  #FFF;
+          font-family: 'medium';
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+      }
+      
+      
+      
+      
+      /* color full page starting from */
+      .color-full-page-parent{
+          position: relative;
+        
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+         margin-top: -1.65rem;
+          margin-left: -0.55rem;
+          width: 101.25%;
+          height: 336px;
+          flex-shrink: 0;
+          background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+      }
+      
+      
+      
+      .color-Text-parent{
+          
+          margin-top: 4rem;
+          margin-left:14rem;
+          width: 65%;
+          height: 250px;
+          
+      }
+      
+      .color-Heading{
+       
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height:60px ;
+      }
+      
+      .color-Heading p{
+          margin-top: 1rem;
+          margin-left: 1rem;
+        color: #FFF;
+        width: 100%;
+        line-height: normal;
+        list-style: normal;
+        font-weight:500;
+        font-family: 'Medium';
+        font-size: 32px;
+        
+      }
+      .color-Heading p span {
+          color:  #FFF;
+      font-family: 'Jost';
+      font-size: 33px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .color-para{
+        
+          width: 100%;
+          color:  #FFF;
+      text-align: center;
+      font-family: 'Medium';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+       
+      .color-counting{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      
+      
+      }
+      
+      .first-child{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+      }
+      .first-child h2{
+          margin-top: -0.45rem;
+          color:  #FFF;
+      font-family: Jost;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      }
+      .first-child p{
+          margin-top: -1.75rem;
+          color: #FFF;
+      font-family: 'Medium';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2px;
+      }
+}
+@media only screen and (max-width: 767px){
+     
+    .firstPage-parent{
+        position: relative;
+          width: 112%;
+          height: 450px;
+      }
+      
+      .back-img{
+    
+          width: 101.28%;
+          height: 90vh;
+     
+      }
+      
+      
+      /* left page  */
+      .FistPage-Left{
+         position: relative;
+        gap: 2rem;
+          width: 250px;
+          height: 150px;
+          margin-top: 2rem;
+          margin-left: 7rem;
+      }
+      
+      
+      .left-logo-icon img{
+          margin-left: 1rem;
+      }
+      .left-logo-name{
+          margin-top: 0.60rem;
+          margin-left: -1.25rem;
+      }
+      
+      
+      
+      /* right page */
+      .FistPage-Right{
+            padding: 10px;
+          position: relative;
+          margin-left: 4rem;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          align-items: flex-start;
+          gap: 0.45rem;
+      
+          width: 320px;
+          height: 150px;  
+          margin-top: 2rem;
+          
+      }
+      
+      
+      .Right-Page-Icon-Search img{
+          cursor: pointer;
+       margin-top: 7px;
+          width: 28.976px;
+      height: 29.017px;
+      flex-shrink: 0;
+      }
+      
+      
+      
+      .Righ-Page-Btn{}
+      
+      .Right-Page-Btn button {
+          cursor: pointer;
+          color:  #FFF;
+          font-family: 'Jost';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          display: inline-flex;
+          padding: 12px 22px;
+
+
+      }
+      
+      
+      .Right-Page-Icon-Owner {
+          cursor: pointer;
+          margin-top: 7px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          border-radius: 42px;
+
+      }
+      
+      
+      
+      /* Center Content and form  and  text  Starting from here */
+      
+      .center-parent{
+          margin-top: 13rem;
+          margin-left: -5rem;
+          left: 15rem;
+          position: absolute;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 35rem;
+      }
+      
+      .heading-center{
+          margin-top: -4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+         margin-left: -1rem;
+      }
+      .heading-center p{
+         
+      font-family: 'Medium';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+    
+      }
+      .center-parent span{
+          
+      font-family: "Jost";
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+     
+      }
+      
+      /* center btn and input */
+      
+      .center-btn-input{
+          display: flex;
+       
+          margin-top: -2rem;
+      }
+      .center-btn-input input{
+          position: relative;
+          left: 8.35rem;
+          width: 25rem;
+      height: 54px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #FFF;
+      border: none;
+      }
+      
+      input::placeholder{
+          text-align: start;
+          color: #9F9F9F;
+      font-family: Jost;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 20px;
+      }
+      
+      
+      .center-btn-input button{
+          cursor: pointer;
+          position: absolute;
+          margin-top: 0%;
+          z-index: 999;
+          width: 141px;
+      height: 55px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #B600D1;
+      border: none;
+      
+      color: #FFF;
+      font-family: 'medium';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .center-text-after-input{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .center-text-after-input p{
+          color:  #FFF;
+          font-family: 'medium';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+      }
+      
+      
+      
+      
+      /* color full page starting from */
+      .color-full-page-parent{
+          position: relative;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          margin-top: -1.65rem;
+          margin-left: -0.55rem;
+          width: 113.45%;
+          height: 346px;
+          flex-shrink: 0;
+          background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+        }
+        
+        
+        
+        .color-Text-parent{
+  
+          
+          margin-top: 4rem;
+          margin-left:7rem;
+          width: 75%;
+          height: 260px;
+          
+      }
+      
+      .color-Heading{
+       
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height:60px ;
+      }
+      
+      .color-Heading p{
+          margin-top: 1rem;
+          margin-left: 1rem;
+        color: #FFF;
+        width: 100%;
+        line-height: normal;
+        list-style: normal;
+        font-weight:500;
+        font-family: 'Medium';
+        font-size: 32px;
+        
+      }
+      .color-Heading p span {
+          color:  #FFF;
+      font-family: 'Jost';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .color-para{
+        
+          width: 100%;
+          color:  #FFF;
+      text-align: center;
+      font-family: 'Medium';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+       
+      .color-counting{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      
+      
+      }
+      
+      .first-child{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+      }
+      .first-child h2{
+          margin-top: -0.45rem;
+          color:  #FFF;
+      font-family: Jost;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      }
+      .first-child p{
+          margin-top: -1.75rem;
+          color: #FFF;
+      font-family: 'Medium';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2px;
+      }
+}
+@media only screen and (max-width: 425px){
+
+    .firstPage-parent{
+        position: relative;
+          width: 208%;
+          height: 450px;
+      }
+      
+      .back-img{
+    
+          width: 101.28%;
+          height: 90vh;
+     
+      }
+      
+      
+      /* left page  */
+      .FistPage-Left{
+         position: relative;
+        gap: 2rem;
+          width: 250px;
+          height: 150px;
+          margin-top: 2rem;
+          margin-left: 7rem;
+      }
+      
+      
+      .left-logo-icon img{
+          margin-left: 1rem;
+      }
+      .left-logo-name{
+          margin-top: 0.60rem;
+          margin-left: -1.25rem;
+      }
+      
+      
+      
+      /* right page */
+      .FistPage-Right{
+            padding: 10px;
+          position: relative;
+          margin-left: 4rem;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          align-items: flex-start;
+          gap: 0.45rem;
+      
+          width: 320px;
+          height: 150px;  
+          margin-top: 2rem;
+          
+      }
+      
+      
+      .Right-Page-Icon-Search img{
+          cursor: pointer;
+       margin-top: 7px;
+          width: 28.976px;
+      height: 29.017px;
+      flex-shrink: 0;
+      }
+      
+      
+      
+      .Righ-Page-Btn{}
+      
+      .Right-Page-Btn button {
+          cursor: pointer;
+          color:  #FFF;
+          font-family: 'Jost';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          display: inline-flex;
+          padding: 12px 22px;
+
+
+      }
+      
+      
+      .Right-Page-Icon-Owner {
+          cursor: pointer;
+          margin-top: 7px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          border-radius: 42px;
+
+      }
+      
+      
+      
+      /* Center Content and form  and  text  Starting from here */
+      
+      .center-parent{
+          margin-top: 13rem;
+          margin-left: -5rem;
+          left: 15rem;
+          position: absolute;
+         
+          width: 35rem;
+      }
+      
+      .heading-center{
+          margin-top: -4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+         margin-left: -1rem;
+      }
+      .heading-center p{
+         
+      font-family: 'Medium';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+    
+      }
+      .center-parent span{
+          
+      font-family: "Jost";
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+     
+      }
+      
+      /* center btn and input */
+      
+      .center-btn-input{
+          display: flex;
+       
+          margin-top: -2rem;
+      }
+      .center-btn-input input{
+          position: relative;
+          left: 8.35rem;
+          width: 25rem;
+      height: 54px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #FFF;
+      border: none;
+      }
+      
+      input::placeholder{
+          text-align: start;
+          color: #9F9F9F;
+      font-family: Jost;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 20px;
+      }
+      
+      
+      .center-btn-input button{
+          cursor: pointer;
+          position: absolute;
+          margin-top: 0%;
+          z-index: 999;
+          width: 141px;
+      height: 55px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #B600D1;
+      border: none;
+      
+      color: #FFF;
+      font-family: 'medium';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .center-text-after-input{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .center-text-after-input p{
+          color:  #FFF;
+          font-family: 'medium';
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+      }
+      
+      
+      
+      
+      /* color full page starting from */
+      .color-full-page-parent{
+          position: relative;
+        
+          margin-top: -1.65rem;
+          margin-left: -0.55rem;
+          width: 210%;
+          
+          height: 346px;
+          flex-shrink: 0;
+          background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+        }
+        
+        
+        
+        .color-Text-parent{
+  
+          
+          margin-top: 4rem;
+          margin-left:7rem;
+          width: 75%;
+          height: 260px;
+          
+      }
+      
+      .color-Heading{
+       
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height:60px ;
+      }
+      
+      .color-Heading p{
+          margin-top: 1rem;
+          margin-left: 1rem;
+        color: #FFF;
+        width: 100%;
+        line-height: normal;
+        list-style: normal;
+        font-weight:500;
+        font-family: 'Medium';
+        font-size: 31px;
+        
+      }
+      .color-Heading p span {
+          color:  #FFF;
+      font-family: 'Jost';
+      font-size: 31px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .color-para{
+        
+          width: 100%;
+          color:  #FFF;
+      text-align: center;
+      font-family: 'Medium';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+       
+      .color-counting{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      
+      
+      }
+      
+      .first-child{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        
+      }
+      .first-child h2{
+          margin-top: -0.45rem;
+          color:  #FFF;
+      font-family: Jost;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      }
+      .first-child p{
+          margin-top: -1.75rem;
+          color: #FFF;
+      font-family: 'Medium';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2px;
+      }
+}
+@media only screen and (max-width: 375px){
+    .firstPage-parent{
+        position: relative;
+          width: 240%;
+          height: 450px;
+      }
+      
+      .back-img{
+    
+          width: 101.28%;
+          height: 90vh;
+     
+      }
+      
+      
+      /* left page  */
+      .FistPage-Left{
+         position: relative;
+        gap: 2rem;
+          width: 250px;
+          height: 150px;
+          margin-top: 2rem;
+          margin-left: 7rem;
+      }
+      
+      
+      .left-logo-icon img{
+          margin-left: 1rem;
+      }
+      .left-logo-name{
+          margin-top: 0.60rem;
+          margin-left: -1.25rem;
+      }
+      
+      
+      
+      /* right page */
+      .FistPage-Right{
+            padding: 10px;
+          position: relative;
+          margin-left: 4rem;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          align-items: flex-start;
+          gap: 0.45rem;
+      
+          width: 320px;
+          height: 150px;  
+          margin-top: 2rem;
+          
+      }
+      
+      
+      .Right-Page-Icon-Search img{
+          cursor: pointer;
+       margin-top: 7px;
+          width: 28.976px;
+      height: 29.017px;
+      flex-shrink: 0;
+      }
+      
+      
+      
+      .Righ-Page-Btn{}
+      
+      .Right-Page-Btn button {
+          cursor: pointer;
+          color:  #FFF;
+          font-family: 'Jost';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          display: inline-flex;
+          padding: 12px 22px;
+
+
+      }
+      
+      
+      .Right-Page-Icon-Owner {
+          cursor: pointer;
+          margin-top: 7px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          border-radius: 42px;
+
+      }
+      
+      
+      
+      /* Center Content and form  and  text  Starting from here */
+      
+      .center-parent{
+          margin-top: 13rem;
+          margin-left: -5rem;
+          left: 15rem;
+          position: absolute;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 35rem;
+      }
+      
+      .heading-center{
+          margin-top: -4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+         margin-left: -1rem;
+      }
+      .heading-center p{
+         
+      font-family: 'Medium';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+    
+      }
+      .center-parent span{
+          
+      font-family: "Jost";
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+     
+      }
+      
+      /* center btn and input */
+      
+      .center-btn-input{
+          display: flex;
+       
+          margin-top: -2rem;
+      }
+      .center-btn-input input{
+          position: relative;
+          left: 8.35rem;
+          width: 25rem;
+      height: 54px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #FFF;
+      border: none;
+      }
+      
+      input::placeholder{
+          text-align: start;
+          color: #9F9F9F;
+      font-family: Jost;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 20px;
+      }
+      
+      
+      .center-btn-input button{
+          cursor: pointer;
+          position: absolute;
+          margin-top: 0%;
+          z-index: 999;
+          width: 141px;
+      height: 55px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #B600D1;
+      border: none;
+      
+      color: #FFF;
+      font-family: 'medium';
+      font-size: 26px;
+   
+      font-weight: 500;
+     
+      }
+      
+      .center-text-after-input{}
+      .center-text-after-input p{
+          color:  #FFF;
+          font-family: 'medium';
+          font-size: 16px;
+      
+          font-weight: 500;
+    
+      }
+      
+      
+      
+      
+      /* color full page starting from */
+      .color-full-page-parent{
+          position: relative;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          margin-top: -1.65rem;
+          margin-left: -0.55rem;
+          width: 243%;
+          
+          height: 346px;
+          flex-shrink: 0;
+          background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+        }
+        
+        
+        
+        .color-Text-parent{
+  
+          
+          margin-top: 4rem;
+          margin-left:7rem;
+          width: 75%;
+          height: 260px;
+          
+      }
+      
+      .color-Heading{
+       
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+          height:60px ;
+      }
+      
+      .color-Heading p{
+          margin-top: 1rem;
+          margin-left: 1rem;
+        color: #FFF;
+        width: 100%;
+        line-height: normal;
+        list-style: normal;
+        font-weight:500;
+        font-family: 'Medium';
+        font-size: 32px;
+        
+      }
+      .color-Heading p span {
+          color:  #FFF;
+      font-family: 'Jost';
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .color-para{
+        
+          width: 100%;
+          color:  #FFF;
+      text-align: center;
+      font-family: 'Medium';
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+       
+      .color-counting{ }
+      
+      .first-child{ }
+      .first-child h2{
+          margin-top: -0.45rem;
+          color:  #FFF;
+      font-family: "Jost";
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      }
+      .first-child p{
+          margin-top: -1.75rem;
+          color: #FFF;
+      font-family: 'Medium';
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2px;
+      }
+}
+@media only screen and (max-width: 320px){
+    .firstPage-parent{
+        position: relative;
+          width: 205%;
+          height:40rem;
+      }
+      
+      .back-img{
+    
+          width: 101.28%;
+          height: 130vh;
+     
+      }
+      
+      
+      /* left page  */
+      .FistPage-Left{
+      
+         position: relative;
+        gap: 2rem;
+          width: 250px;
+          height: 150px;
+          margin-top: 2rem;
+          margin-left: 0rem;
+      }
+      
+      
+      .left-logo-icon img{
+          margin-left: 1rem;
+      }
+      .left-logo-name{
+          margin-top: 0.60rem;
+          margin-left: -1.25rem;
+      }
+      
+      
+      
+      /* right page */
+      .FistPage-Right{
+            padding: 10px;
+          position: relative;
+          margin-left: 2rem;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-evenly;
+          align-items: flex-start;
+          gap: 0.45rem;
+          width: 310px;
+          height: 55px;  
+          margin-top: 2rem;
+          
+      }
+      
+      
+      .Right-Page-Icon-Search img{
+          cursor: pointer;
+       margin-top: 7px;
+          width: 28.976px;
+      height: 29.017px;
+      flex-shrink: 0;
+      }
+      
+      
+      
+      .Righ-Page-Btn{}
+      
+      .Right-Page-Btn button {
+          cursor: pointer;
+          color:  #FFF;
+          font-family: 'Jost';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          display: inline-flex;
+          padding: 12px 22px;
+
+
+      }
+      
+      
+      .Right-Page-Icon-Owner {
+          cursor: pointer;
+          margin-top: 7px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          border-radius: 42px;
+
+      }
+      
+      
+      
+      /* Center Content and form  and  text  Starting from here */
+      
+      .center-parent{
+          margin-top: 18rem;
+          margin-left: 0rem;
+          left: 2rem;
+          position: absolute;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 35rem;
+      }
+      
+      .heading-center{
+          margin-top: -4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+         margin-left: -1rem;
+      }
+      .heading-center p{
+         
+      font-family: 'Medium';
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+    
+      }
+      .center-parent span{
+          
+      font-family: "Jost";
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+     
+      }
+      
+      /* center btn and input */
+      
+      .center-btn-input{
+          display: flex;
+       
+          margin-top: -2rem;
+      }
+      .center-btn-input input{
+          position: relative;
+          left: 8.35rem;
+          width: 25rem;
+      height: 54px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #FFF;
+      border: none;
+      }
+      
+      input::placeholder{
+          text-align: start;
+          color: #9F9F9F;
+      font-family: Jost;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 20px;
+      }
+      
+      
+      .center-btn-input button{
+          cursor: pointer;
+          position: absolute;
+          margin-top: 0%;
+          z-index: 999;
+          width: 141px;
+      height: 55px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #B600D1;
+      border: none;
+      
+      color: #FFF;
+      font-family: 'medium';
+      font-size: 26px;
+   
+      font-weight: 500;
+     
+      }
+      
+      .center-text-after-input{}
+      .center-text-after-input p{
+          color:  #FFF;
+          font-family: 'medium';
+          font-size: 18px;
+      
+          font-weight: 500;
+    
+      }
+      
+      
+      
+      
+      /* color full page starting from */
+      .color-full-page-parent{
+          position: relative;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          margin-top: -1.65rem;
+          margin-left: -0.55rem;
+          width: 208%;
+          height: 32rem;
+          flex-shrink: 0;
+          background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+        }
+        
+        
+        
+        .color-Text-parent{
+  
+         
+          margin-top: 4rem;
+          margin-left:2rem;
+          width: 88%;
+          height: 260px;
+          
+      }
+      
+      .color-Heading{
+  
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height:60px ;
+      }
+      
+      .color-Heading p{
+          margin-top: 2rem;
+          margin-left: 0rem;
+        color: #FFF;
+        width: 100%;
+        line-height: normal;
+        list-style: normal;
+        font-weight:500;
+        font-family: 'Medium';
+        font-size: 28px;
+        
+      }
+      .color-Heading p span {
+          color:  #FFF;
+      font-family: 'Jost';
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+      .color-para{
+        
+          width: 100%;
+          color:  #FFF;
+      text-align: center;
+      font-family: 'Medium';
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      }
+      
+       
+      .color-counting{ }
+      
+      .first-child{ }
+      .first-child h2{
+          margin-top: -0.45rem;
+          color:  #FFF;
+      font-family: "Jost";
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      }
+      .first-child p{
+          margin-top: -1.75rem;
+          color: #FFF;
+      font-family: 'Medium';
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2px;
+      }
+   
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 319px){
+
+    
+    .firstPage-parent{
+        position: relative;
+          width: 130%;
+          height: 450px;
+      }
+      
+      .back-img{
+    
+          width: 101.28%;
+          height: 120vh;
+     
+      }
+      
+      
+      /* left page  */
+      .FistPage-Left{
+         position: relative;
+        gap: 2rem;
+          width: 250px;
+          height: 150px;
+          margin-top: 2rem;
+          margin-left: 5rem;
+      }
+      
+      
+      .left-logo-icon img{
+          margin-left: 1rem;
+      }
+      .left-logo-name{
+          margin-top: 0.60rem;
+          margin-left: -1.25rem;
+      }
+      
+      
+      
+      /* right page */
+      .FistPage-Right{
+            padding: 0px;
+          position: relative;
+          margin-left: 0rem;
+          display: flex;
+          flex-direction: row;
+          justify-content:center;
+          align-items: center;
+          margin-left: -20rem;
+          width: 320px;
+          height: 50px;  
+          margin-top: 7rem;
+          
+      }
+      
+      
+      .Right-Page-Icon-Search img{
+     cursor: pointer;
+    margin-top: 7px;
+    width: 28.976px;
+    height: 29.017px;
+    flex-shrink: 0;
+      }
+      
+      
+      
+      .Righ-Page-Btn{}
+      
+      .Right-Page-Btn button {
+          cursor: pointer;
+          color:  #FFF;
+          font-family: 'Jost';
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          display: inline-flex;
+          padding: 12px 22px;
+      }
+      
+      
+      .Right-Page-Icon-Owner {
+          cursor: pointer;
+          margin-top: 7px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          border-radius: 42px;
+
+      }
+      
+      
+      
+      /* Center Content and form  and  text  Starting from here */
+      
+      .center-parent{
+          margin-top: 16rem;
+          margin-left: 1.35rem;
+          left: 0rem;
+          position: absolute;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 35rem;
+      }
+      
+      .heading-center{
+          margin-top: -3rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+         margin-right: 16rem;
+         margin-left: -3rem;
+         
+      }
+      .heading-center p{
+         
+      font-family: 'Medium';
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 500;
+    
+      }
+      .center-parent span{
+          
+      font-family: "Jost";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+     
+      }
+      
+      /* center btn and input */
+      
+      .center-btn-input{
+          display: flex;
+       
+          margin-top: 1%;
+      }
+      .center-btn-input input{
+          position: relative;
+          left: 4rem;
+          width: 12rem;
+      height: 54px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #FFF;
+      border: none;
+      }
+      
+      input::placeholder{
+          text-align: start;
+          color: #9F9F9F;
+      font-family: Jost;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 20px;
+      }
+      
+      
+      .center-btn-input button{
+          cursor: pointer;
+          position: absolute;
+          margin-top: 0%;
+          left: -1rem;
+          z-index: 999;
+          width: 90px;
+      height: 55px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #B600D1;
+      border: none;
+      
+      color: #FFF;
+      font-family: 'medium';
+      font-size: 18px;
+   
+      font-weight: 500;
+     
+      }
+      
+      .center-text-after-input{
+        width: 45%;
+        margin-left: 2rem;
+       
+
+      }
+      .center-text-after-input p{
+          color:  #FFF;
+          font-family: 'medium';
+          font-size: 15px;
+      
+          font-weight: 500;
+    
+      }
+      
+      
+      
+      
+      /* color full page starting from */
+      .color-full-page-parent{
+          position: relative;
+     
+          margin-top:7.45rem;
+          margin-left: -0.55rem;
+          width: 132%;
+          
+          height: 38rem;
+   
+        }
+        
+        
+        
+        .color-Text-parent{
+  
+     
+          margin-top: 2rem;
+          margin-left:2rem;
+          width: 82%;
+          height: 260px;
+          
+      }
+      
+      .color-Heading{
+          width: 100%;
+          height:60px ;
+      }
+      
+      .color-Heading p{
+          margin-top: 1rem;
+          margin-left: 1rem;
+      
+        width: 100%;
+        font-weight:500;
+        font-family: 'Medium';
+        font-size: 32px;
+        
+      }
+      .color-Heading p span {
+          color:  #FFF;
+      font-family: 'Jost';
+      font-size: 28px;
+
+      font-weight: 500;
+
+      }
+      
+      .color-para{
+      margin-top: 5rem;
+      width: 100%;
+      color:  #FFF;
+      text-align: center;
+      font-family: 'Medium';
+      font-size: 20px;
+      font-weight: 200;
+      }
+      
+       
+      .color-counting{ }
+      
+      .first-child{ }
+      .first-child h2{
+          margin-top: 4.45rem;
+          color:  #FFF;
+      font-family: "Jost";
+      font-size: 32px;
+
+      font-weight: 900;
+
+      }
+      .first-child p{
+          margin-top: 0.75rem;
+          color: #FFF;
+      font-family: 'Medium';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2px;
+      }
+}

@@ -1,0 +1,55 @@
+.top-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    font-size: 2.6rem;
+    width: 6rem;
+    height: 6rem;
+    color: #fff;
+    background: linear-gradient(93deg, #2438CB 2.4%, #B600D1 97.52%);
+    box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    z-index: 999;
+
+}
+
+.top-btn-icon{
+    animation: gototop 1.5s linear infinite alternate-reverse;
+}
+    @keyframes gototop {
+        0%{
+            transform:translateY(-0.5rem)
+        }
+        100%{
+            transform:translateY(1rem)
+
+        }
+    }
+   
+
+
+
+    @media   (max-width:320px) {
+        .top-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            cursor: pointer;
+            font-size: 2.6rem;
+            width: 6rem;
+            height: 6rem;
+        
+            position: fixed;
+            bottom: 5rem;
+            right: 0rem;
+            left:18rem;
+            z-index: 999;
+        
+        }
+    }

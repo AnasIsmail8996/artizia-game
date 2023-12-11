@@ -1,0 +1,711 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('../../assets/Jost-Bold-81270338.ttf') format('truetype'); 
+  }
+  
+
+  @font-face {
+    font-family: 'Medium';
+    src: url('../../assets/Poppins-Medium-8d909883.ttf') format('truetype');
+  }
+
+
+  body {
+     font-family: 'Medium',  'Jost', sans-serif; 
+   } 
+  
+
+
+
+.how-it-Work-parent{
+    margin-top: 5rem;
+    margin-left: -0.50rem;
+    width: 1348px;
+    height: 486px;
+    flex-shrink: 0;
+    background: url('../../assets/images/HowitWork.png'), lightgray 50% / cover no-repeat;
+}
+
+.heading-how-it-work{
+    position: absolute;
+    margin-top: 1rem;
+margin-left: 7rem;
+}
+.heading-how-it-work p{
+    color: #FFF;
+font-family: 'medium';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+/* card parent merging classes */
+.card-one-parent-how-it-one{
+    margin-left: 3rem;
+}
+.card-one-parent-how-it-two{
+    margin-left: -0.85rem;
+}
+.card-one-parent-how-it-there{
+    margin-left: -2.85rem;
+}
+.card-one-parent-how-it-four{
+    margin-left: -5rem;
+}
+
+
+/* card section starting from here */
+.how-it-work-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+/* card one */
+.how-it-work-card-one {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+    margin-top: 9rem;
+    margin-left: 2rem;
+      height: 250px;
+    width: 243px;
+    margin-left: 4rem;
+}
+
+.how-it-work-card-one-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #2438CB;
+}
+.how-it-work-card-one-img img{
+    width: 37.014px;
+height: 35.282px;
+flex-shrink: 0;
+}
+
+.how-it-work-card-one p span{
+    list-style: normal;
+    line-height: 22px;
+    color: #FFF;
+  font-family: 'medium';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+
+    
+}
+.how-it-work-card-one p{
+
+    color: #B6B6B6;
+    font-family: 'medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .how-it-Work-parent{
+        margin-top: 8rem;
+        margin-left: -0.50rem;
+        width: 100%;
+        height: 30.35rem;
+      
+    }
+    
+    .heading-how-it-work{
+        position: absolute;
+        margin-top: 0rem;
+         margin-left: 7rem;
+    }
+    .heading-how-it-work p{
+        color: #FFF;
+    font-family: 'medium';
+    font-size: 35px;
+
+    font-weight: 500;
+
+    }
+    
+    
+    
+    /* card parent merging classes */
+    .card-one-parent-how-it-one{
+        margin-left: -2rem;
+    }
+    .card-one-parent-how-it-two{
+        margin-left: -3rem;
+    }
+    .card-one-parent-how-it-there{
+        margin-left: -3rem;
+    }
+    .card-one-parent-how-it-four{
+        margin-left: -3rem;
+    }
+    
+    
+    /* card section starting from here */
+    .how-it-work-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    /* card one */
+    .how-it-work-card-one {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 9rem;
+        margin-left: 2rem;
+          height: 250px;
+        width: 223px;
+        margin-left: 4rem;
+    }
+    
+    .how-it-work-card-one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2438CB;
+    }
+    .how-it-work-card-one-img img{
+        width: 37.014px;
+    height: 35.282px;
+    flex-shrink: 0;
+    }
+    
+    .how-it-work-card-one p span{
+        list-style: normal;
+        line-height: 22px;
+        color: #FFF;
+      font-family: 'medium';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+    
+        
+    }
+    .how-it-work-card-one p{
+    
+        color: #B6B6B6;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .how-it-Work-parent{
+        margin-top: 8rem;
+        margin-left: -0.50rem;
+        width: 100%;
+        height: 30.35rem;
+      
+    }
+    
+    .heading-how-it-work{
+        position: absolute;
+        margin-top: 0rem;
+         margin-left: 7rem;
+    }
+    .heading-how-it-work p{
+        color: #FFF;
+    font-family: 'medium';
+    font-size: 35px;
+
+    font-weight: 500;
+
+    }
+    
+    
+    
+    /* card parent merging classes */
+    .card-one-parent-how-it-one{
+        margin-left: -2rem;
+    }
+    .card-one-parent-how-it-two{
+        margin-left: -3rem;
+    }
+    .card-one-parent-how-it-there{
+        margin-left: -3rem;
+    }
+    .card-one-parent-how-it-four{
+        margin-left: -3rem;
+    }
+    
+    
+    /* card section starting from here */
+    .how-it-work-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    /* card one */
+    .how-it-work-card-one {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 9rem;
+        margin-left: 2rem;
+          height: 250px;
+        width: 223px;
+        margin-left: 4rem;
+    }
+    
+    .how-it-work-card-one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2438CB;
+    }
+    .how-it-work-card-one-img img{
+        width: 37.014px;
+    height: 35.282px;
+    flex-shrink: 0;
+    }
+    
+    .how-it-work-card-one p span{
+        list-style: normal;
+        line-height: 22px;
+        color: #FFF;
+      font-family: 'medium';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+    
+        
+    }
+    .how-it-work-card-one p{
+    
+        color: #B6B6B6;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    }   
+}
+@media only screen and (max-width: 767px){
+    .how-it-Work-parent{
+        margin-top: 8rem;
+        margin-left: -0.50rem;
+        width: 113%;
+        height: 50rem;
+      
+    }
+    
+    .heading-how-it-work{
+        position: absolute;
+        margin-top: 0rem;
+         margin-left: 2rem;
+    }
+    .heading-how-it-work p{
+        color: #FFF;
+    font-family: 'medium';
+    font-size: 35px;
+
+    font-weight: 500;
+
+    }
+    
+    
+    
+    /* card parent merging classes */
+    .card-one-parent-how-it-one{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-two{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-there{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-four{
+        margin-left:0rem;
+    }
+    
+    
+    /* card section starting from here */
+    .how-it-work-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    /* card one */
+    .how-it-work-card-one {
+      
+        margin-top: 6rem;
+        margin-left: 2rem;
+          height: 250px;
+        width: 223px;
+        margin-left: 4rem;
+    }
+    
+    .how-it-work-card-one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2438CB;
+    }
+    .how-it-work-card-one-img img{
+        width: 37.014px;
+    height: 35.282px;
+    flex-shrink: 0;
+    }
+    
+    .how-it-work-card-one p span{
+        list-style: normal;
+        line-height: 0%;
+        color: #FFF;
+      font-family: 'medium';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+    
+        
+    }
+    .how-it-work-card-one p{
+    
+        color: #B6B6B6;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    } 
+}
+@media only screen and (max-width: 425px){
+    .how-it-Work-parent{
+        margin-top: 8rem;
+        margin-left: -0.50rem;
+        width: 210%;
+        height: 50rem;
+      
+    }
+    
+    .heading-how-it-work{
+        position: absolute;
+        margin-top: 0rem;
+         margin-left: 2rem;
+    }
+    .heading-how-it-work p{
+        color: #FFF;
+    font-family: 'medium';
+    font-size: 35px;
+
+    font-weight: 500;
+
+    }
+    
+    
+    
+    /* card parent merging classes */
+    .card-one-parent-how-it-one{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-two{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-there{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-four{
+        margin-left:0rem;
+    }
+    
+    
+    /* card section starting from here */
+    .how-it-work-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    /* card one */
+    .how-it-work-card-one {
+      
+        margin-top: 6rem;
+        margin-left: 2rem;
+          height: 250px;
+        width: 223px;
+        margin-left: 4rem;
+    }
+    
+    .how-it-work-card-one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2438CB;
+    }
+    .how-it-work-card-one-img img{
+        width: 37.014px;
+    height: 35.282px;
+    flex-shrink: 0;
+    }
+    
+    .how-it-work-card-one p span{
+        list-style: normal;
+        line-height: 0%;
+        color: #FFF;
+      font-family: 'medium';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+    
+        
+    }
+    .how-it-work-card-one p{
+    
+        color: #B6B6B6;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    } 
+}
+@media only screen and (max-width: 375px){
+    .how-it-Work-parent{
+        margin-top: 8rem;
+        margin-left: -0.50rem;
+        width: 240%;
+        height: 50rem;
+      
+    }
+    
+    .heading-how-it-work{
+        position: absolute;
+        margin-top: 0rem;
+         margin-left: 2rem;
+    }
+    .heading-how-it-work p{
+        color: #FFF;
+    font-family: 'medium';
+    font-size: 35px;
+
+    font-weight: 500;
+
+    }
+    
+    
+    
+    /* card parent merging classes */
+    .card-one-parent-how-it-one{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-two{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-there{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-four{
+        margin-left:0rem;
+    }
+    
+    
+    /* card section starting from here */
+    .how-it-work-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    /* card one */
+    .how-it-work-card-one {
+      
+        margin-top: 6rem;
+        margin-left: 2rem;
+          height: 250px;
+        width: 223px;
+        margin-left: 4rem;
+    }
+    
+    .how-it-work-card-one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2438CB;
+    }
+    .how-it-work-card-one-img img{
+        width: 37.014px;
+    height: 35.282px;
+    flex-shrink: 0;
+    }
+    
+    .how-it-work-card-one p span{
+        list-style: normal;
+        line-height: 0%;
+        color: #FFF;
+      font-family: 'medium';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+    
+        
+    }
+    .how-it-work-card-one p{
+    
+        color: #B6B6B6;
+        font-family: 'medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    } 
+}
+@media only screen and (max-width: 320px){
+    .how-it-Work-parent{
+        margin-top: 8rem;
+        margin-left: -0.50rem;
+        width: 208%;
+        height: 55rem;
+        
+    }
+    
+    .heading-how-it-work{
+        position: absolute;
+        margin-top: 0rem;
+        margin-left: 2rem;
+    }
+    .heading-how-it-work p{
+        color: #FFF;
+        font-family: 'medium';
+        font-size: 35px;
+        
+        font-weight: 500;
+        
+    }
+    
+    
+    
+    /* card parent merging classes */
+    .card-one-parent-how-it-one{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-two{
+     
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-there{
+        margin-left: 0rem;
+    }
+    .card-one-parent-how-it-four{
+        margin-left:0rem;
+    }
+    
+    
+    /* card section starting from here */
+    .how-it-work-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    /* card one */
+    .how-it-work-card-one {
+      
+        margin-top: 6rem;
+        margin-left: 2rem;
+          height: 250px;
+        width: 223px;
+        margin-left: 4rem;
+    }
+    
+    .how-it-work-card-one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2438CB;
+    }
+    .how-it-work-card-one-img img{
+        width: 37.014px;
+    height: 35.282px;
+    flex-shrink: 0;
+    }
+    
+    .how-it-work-card-one p span{
+        list-style: normal;
+        line-height: 0%;
+        color: #FFF;
+        font-family: 'medium';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+        
+        
+    }
+    .how-it-work-card-one p{
+       
+        color: #B6B6B6;
+        font-family: 'medium';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    } 
+}
